@@ -71,10 +71,6 @@ function Layout({ children }) {
           position: relative;
         }
 
-        .section-heading span {
-          color: var(--primary-color);
-        }
-
         .btn {
           display: flex;
           align-items: center;

@@ -25,7 +25,7 @@ const Projects = ({ projects }) => {
       </Head>
 
       <section className="portfolio" id="portfolio">
-        <h1 className="section-heading" style={{ marginBottom: "2rem" }}>
+        <h1 className="section-heading" style={{ marginBottom: "1.5rem" }}>
           <span>My</span> Projects
         </h1>
         <div className="card-container">

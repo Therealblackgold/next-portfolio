@@ -36,7 +36,7 @@ const Skills = () => {
               <li>Django</li>
             </ul>
           </div>
-          <div className="card-wrapper" style={{ marginBottom: "50px" }}>
+          <div className="card-wrapper" style={{ marginBottom: "8rem" }}>
             <div className="card">
               <Image
                 src="/img/html.png"
@@ -91,16 +91,12 @@ const Skills = () => {
         </div>
 
         <style jsx>{`
-          .skills ul {
-            margin-top: -30px;
-          }
           .skills .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             gap: 40px;
-            /* text-align: center; */
           }
 
           .skills .container .card-wrapper {
@@ -109,7 +105,6 @@ const Skills = () => {
             justify-content: center;
             align-items: center;
             gap: 40px;
-            margin: -30px 0;
           }
 
           .skills .container .card-wrapper div {
