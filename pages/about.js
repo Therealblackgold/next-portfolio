@@ -71,7 +71,6 @@ const AboutMe = () => {
 
           .about {
             text-align: center;
-            margin: -20px 0;
           }
           .about .content {
             display: flex;

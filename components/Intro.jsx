@@ -6,7 +6,7 @@ as the landing page when a user reaches the app */
 
 function Intro() {
   return (
-    <header className="header" id="header">
+    <header className="header" id="header" style={{ marginTop: "50px" }}>
       <div className="container">
         <div className="left">
           <Circle top="-350px" left="-370px" />

@@ -86,7 +86,12 @@ const Navbar = () => {
           justify-content: space-between;
           font-size: 18px;
           padding: 0px 100px;
-          position: relative;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 99;
+          /* position: relative; */
           overflow: hidden;
         }
 

@@ -18,6 +18,7 @@ function Layout({ children }) {
 
       <Navbar />
       {children}
+      <Footer />
 
       <style global jsx>{`
         :root {
@@ -44,6 +45,7 @@ function Layout({ children }) {
         html {
           scroll-padding-top: 90px;
           scroll-behavior: smooth;
+          height: 100%;
         }
 
         html::-webkit-scrollbar {
@@ -65,10 +67,13 @@ function Layout({ children }) {
           font-family: "Poppins", sans-serif;
           display: flex;
           flex-direction: column;
+          min-height: 100%;
+          position: relative;
         }
 
         section {
           padding: 20px 5%;
+          margin: 2rem 0;
         }
 
         .section-heading {
@@ -242,10 +247,11 @@ function Layout({ children }) {
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            padding: 1.5rem;
           }
 
-          footer p {
-            padding: 10px;
+          .about .content {
+            margin-bottom: 8rem;
           }
         }
         @media screen and (max-width: 1920px) {

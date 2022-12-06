@@ -63,7 +63,7 @@ const Projects = ({ projects }) => {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
-            margin-bottom: 82px;
+            margin-bottom: 10rem;
           }
 
           .portfolio .card-container .card {
