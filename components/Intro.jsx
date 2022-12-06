@@ -19,7 +19,7 @@ function Intro() {
             height="300px"
           />
         </div>
-        <div className="center">
+        <div className="center" style={{ marginBottom: "50px" }}>
           <h1 className="main-heading">- IM GAUTA NCHOLO.</h1>
           <h2 className="subheading">FULLSTACK WEB DEVELOPER</h2>
           <p>

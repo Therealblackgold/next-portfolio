@@ -36,7 +36,7 @@ const Skills = () => {
               <li>Django</li>
             </ul>
           </div>
-          <div className="card-wrapper">
+          <div className="card-wrapper" style={{ marginBottom: "50px" }}>
             <div className="card">
               <Image
                 src="/img/html.png"
@@ -91,9 +91,6 @@ const Skills = () => {
         </div>
 
         <style jsx>{`
-          .skills {
-            margin-top: -20px;
-          }
           .skills ul {
             margin-top: -30px;
           }

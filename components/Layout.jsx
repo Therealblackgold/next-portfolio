@@ -176,7 +176,7 @@ function Layout({ children }) {
             margin-top: 30px !important;
             padding-top: 0 !important;
           }
-          .circle {
+
             display: none;
           }
         }

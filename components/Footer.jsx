@@ -42,6 +42,7 @@ const Footer = () => {
         .footer .copyright {
           font-size: 16px;
           color: var(--primary-color);
+          margin-bottom: 1rem;
         }
       `}</style>
     </footer>
