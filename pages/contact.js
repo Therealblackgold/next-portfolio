@@ -23,14 +23,6 @@ const contact = () => {
           <div className="list">
             <ul>
               <li>
-                <Link href="tel:8882192787" passhref="true">
-                  <a target="_blank" className="contact-wrapper">
-                    <i className="bi bi-phone-fill" />
-                    073 821 2456
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link
                   href="https://www.linkedin.com/in/gauta-ncholo/"
                   passhref="true"

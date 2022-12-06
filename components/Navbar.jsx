@@ -132,6 +132,7 @@ const Navbar = () => {
           color: lightgray;
           list-style: none;
           transition: all 1s ease;
+          font-size: 16px;
         }
 
         @media screen and (max-width: 900px) {
@@ -153,7 +154,9 @@ const Navbar = () => {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            /* justify-content: center; */
+            padding-top: 5rem;
+            gap: 4rem;
           }
         }
       `}</style>

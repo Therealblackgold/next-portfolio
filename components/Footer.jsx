@@ -18,12 +18,15 @@ const Footer = () => {
           flex-direction: column !important;
           flex-wrap: wrap;
           align-items: center;
-          height: 15vh;
-          margin-top: 20px;
-
+          height: 5rem !important;
+          margin-top: auto;
           background: var(--darker--color);
           color: #fff;
           text-align: center;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
         }
 
         p {

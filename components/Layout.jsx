@@ -45,6 +45,7 @@ function Layout({ children }) {
         html {
           scroll-padding-top: 90px;
           scroll-behavior: smooth;
+          height: 100%;
         }
 
         html::-webkit-scrollbar {
@@ -64,6 +65,10 @@ function Layout({ children }) {
           background: var(--black-color);
           color: #fff;
           font-family: "Poppins", sans-serif;
+          display: flex;
+          flex-direction: column;
+          min-height: 100%;
+          position: relative;
         }
 
         section {
